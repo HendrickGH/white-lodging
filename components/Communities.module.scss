@@ -1,0 +1,24 @@
+.grid {
+	display: grid;
+	grid-template-columns: 45% 55%;
+	grid-template-rows: auto;
+	div {
+		margin-left: 3.6rem;
+		h2 {
+			text-transform: uppercase;
+			letter-spacing: 0.8rem;
+			font-size: 4.8rem;
+			font-weight: 400;
+		}
+		p {
+			margin-top: 3.2rem;
+			font-size: 1.6rem;
+			letter-spacing: 0.25px;
+		}
+	}
+	figure {
+		width: 100%;
+		position: relative;
+		height: 55rem;
+	}
+}

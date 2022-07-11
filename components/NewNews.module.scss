@@ -1,0 +1,47 @@
+.item {
+	display: flex;
+	gap: 1.2rem;
+}
+.item aside {
+	background-color: #fff;
+	color: #000;
+	align-self: flex-start;
+	padding: 1.2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.4rem;
+}
+.item aside p {
+	font-weight: 700;
+	font-size: 1.6rem;
+}
+.item aside p::first-letter {
+	letter-spacing: 0.6rem;
+}
+.item div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 1.2rem;
+}
+.item div a {
+	font-weight: 700;
+	font-size: 1.6rem;
+	text-decoration: none;
+	border-bottom: 3px solid #000;
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 0.6rem;
+	align-self: flex-start;
+	padding-bottom: 0.6rem;
+}
+.item div h4 {
+	font-size: 1.6rem;
+	letter-spacing: 0.025rem;
+}
+.item div p {
+	letter-spacing: 0.25px;
+	margin-top: 1.2rem;
+	font-size: 1.4rem;
+	line-height: 1.5;
+}
